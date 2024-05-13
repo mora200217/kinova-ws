@@ -1,0 +1,46 @@
+[0.052s] Invoking command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake /Users/amoralesma/Documents/projects/robotics/manipulator/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description
+[1.256s] -- The C compiler identification is Clang 16.0.6
+[1.552s] -- The CXX compiler identification is Clang 16.0.6
+[1.689s] -- Detecting C compiler ABI info
+[2.273s] -- Detecting C compiler ABI info - done
+[2.288s] -- Check for working C compiler: /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/x86_64-apple-darwin13.4.0-clang - skipped
+[2.289s] -- Detecting C compile features
+[2.290s] -- Detecting C compile features - done
+[2.405s] -- Detecting CXX compiler ABI info
+[2.963s] -- Detecting CXX compiler ABI info - done
+[2.976s] -- Check for working CXX compiler: /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/x86_64-apple-darwin13.4.0-clang++ - skipped
+[2.977s] -- Detecting CXX compile features
+[2.977s] -- Detecting CXX compile features - done
+[3.009s] -- Found ament_cmake: 1.3.7 (/usr/local/Caskroom/miniforge/base/envs/ros-humble/share/ament_cmake/cmake)
+[4.034s] -- Found Python3: /usr/local/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.1") found components: Interpreter 
+[4.238s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.687s] -- Found ament_lint_auto: 0.12.10 (/usr/local/Caskroom/miniforge/base/envs/ros-humble/share/ament_lint_auto/cmake)
+[5.075s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.081s] -- Added test 'lint_cmake' to check CMake code style
+[5.085s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.107s] -- Added test 'xmllint' to check XML markup files
+[5.113s] -- Configuring done (5.0s)
+[5.146s] -- Generating done (0.0s)
+[5.154s] -- Build files have been written to: /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description
+[5.162s] Invoked command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description' returned '0': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake /Users/amoralesma/Documents/projects/robotics/manipulator/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description
+[5.168s] Invoking command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --build /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description -- -j8 -l8
+[5.304s] Invoked command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description' returned '0': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --build /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description -- -j8 -l8
+[5.390s] Invoking command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --install /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description
+[5.411s] -- Install configuration: ""
+[5.412s] -- Execute custom install script
+[5.412s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[5.444s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[5.471s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[5.503s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[5.531s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/environment/path.sh
+[5.558s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/environment/path.dsv
+[5.585s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/local_setup.bash
+[5.612s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/local_setup.sh
+[5.647s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/local_setup.zsh
+[5.702s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/local_setup.dsv
+[5.744s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/package.dsv
+[5.783s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[5.816s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[5.850s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[5.876s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/package.xml
+[5.906s] Invoked command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description' returned '0': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --install /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description

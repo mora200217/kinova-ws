@@ -1,0 +1,21 @@
+[0.034s] Invoking command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_gazebo': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --build /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_gazebo -- -j8 -l8
+[0.245s] Invoked command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_gazebo' returned '0': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --build /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_gazebo -- -j8 -l8
+[0.355s] Invoking command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_gazebo': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --install /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_gazebo
+[0.376s] -- Install configuration: ""
+[0.378s] -- Execute custom install script
+[0.378s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/ament_index/resource_index/package_run_dependencies/robot_gazebo
+[0.378s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/ament_index/resource_index/parent_prefix_path/robot_gazebo
+[0.379s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/environment/ament_prefix_path.sh
+[0.379s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/environment/ament_prefix_path.dsv
+[0.380s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/environment/path.sh
+[0.380s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/environment/path.dsv
+[0.381s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/local_setup.bash
+[0.381s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/local_setup.sh
+[0.382s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/local_setup.zsh
+[0.382s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/local_setup.dsv
+[0.382s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/package.dsv
+[0.455s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/ament_index/resource_index/packages/robot_gazebo
+[0.456s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig.cmake
+[0.456s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig-version.cmake
+[0.457s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/package.xml
+[0.457s] Invoked command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_gazebo' returned '0': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --install /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_gazebo

@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/usr/local/Caskroom/miniforge/base/envs/ros-humble/include/**",
+        "/Users/amoralesma/Documents/projects/robotics/manipulator/src/robot_description/include/**",
+        "/Users/amoralesma/Documents/projects/robotics/manipulator/src/robot_gazebo/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,1 @@
+/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_gazebo/ament_cmake_environment_hooks/local_setup.sh

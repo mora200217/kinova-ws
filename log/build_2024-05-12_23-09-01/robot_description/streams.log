@@ -1,0 +1,33 @@
+[0.049s] Invoking command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --build /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description -- -j8 -l8
+[0.254s] Invoked command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description' returned '0': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --build /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description -- -j8 -l8
+[0.363s] Invoking command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --install /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description
+[0.389s] -- Install configuration: ""
+[0.390s] -- Execute custom install script
+[0.393s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//launch/launch_viz.py
+[0.393s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//launch/vizualize.xml
+[0.393s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//xacro/gen3.xacro
+[0.394s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//xacro/gen3_robotiq_2f_140.xacro
+[0.394s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//xacro/gen3_robotiq_2f_85.xacro
+[0.394s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//xacro/kortex_robot.xacro
+[0.394s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//urdf/GEN3-6DOF_BRAKES_NO-VISION_URDF_ARM_V01.urdf
+[0.395s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//urdf/GEN3-6DOF_BRAKES_VISION_URDF_ARM_V01.urdf
+[0.395s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//urdf/GEN3-6DOF_NO-VISION_URDF_ARM_V01.urdf
+[0.395s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//urdf/GEN3-6DOF_VISION_URDF_ARM_V01.urdf
+[0.396s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//urdf/gen3_macro.xacro
+[0.396s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description//urdf/gen3_transmission_macro.xacro
+[0.396s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.397s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.397s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.398s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.398s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/environment/path.sh
+[0.399s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/environment/path.dsv
+[0.399s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/local_setup.bash
+[0.400s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/local_setup.sh
+[0.400s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/local_setup.zsh
+[0.401s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/local_setup.dsv
+[0.401s] -- Symlinking: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/package.dsv
+[0.439s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.440s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.440s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.440s] -- Up-to-date symlink: /Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_description/share/robot_description/package.xml
+[0.442s] Invoked command in '/Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description' returned '0': CONDA_PROMPT_MODIFIER=(ros-humble) SHLVL=2 _=/usr/bin/env /usr/local/Caskroom/miniforge/base/envs/ros-humble/bin/cmake --install /Users/amoralesma/Documents/projects/robotics/manipulator/build/robot_description

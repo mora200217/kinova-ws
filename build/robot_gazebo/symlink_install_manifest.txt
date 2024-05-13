@@ -1,0 +1,15 @@
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/ament_index/resource_index/package_run_dependencies/robot_gazebo
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/ament_index/resource_index/parent_prefix_path/robot_gazebo
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/environment/ament_prefix_path.sh
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/environment/ament_prefix_path.dsv
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/environment/path.sh
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/environment/path.dsv
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/local_setup.bash
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/local_setup.sh
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/local_setup.zsh
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/local_setup.dsv
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/package.dsv
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/ament_index/resource_index/packages/robot_gazebo
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig.cmake
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig-version.cmake
+/Users/amoralesma/Documents/projects/robotics/manipulator/install/robot_gazebo/share/robot_gazebo/package.xml

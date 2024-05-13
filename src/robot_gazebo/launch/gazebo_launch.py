@@ -42,7 +42,10 @@ def generate_launch_description():
         executable="joint_state_publisher",
     )
 
+    spawnModelNode = actions.Node(package='gazebo_ros', executable='spawn_entity.py',
+                          arguments=['-topic','robot_description','-entity', "kinova-gen3", '-x', "0", '-y', '0', '-z', '0'],output='screen')
+
 
     return LaunchDescription([
-        gazeboLaunch, jointStateNode, nodeRobotStatePublisher
+        gazeboLaunch, jointStateNode, nodeRobotStatePublisher, spawnModelNode
     ])

@@ -4,8 +4,9 @@ from ament_index_python import get_package_share_directory
 
 from launch import LaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.actions import IncludeLaunchDescription
+from launch.actions import IncludeLaunchDescription, ExecuteProcess, RegisterEventHandler
 from launch_ros import actions
+from launch.event_handlers import OnProcessExit
 
 import xacro
 
@@ -45,7 +46,39 @@ def generate_launch_description():
     spawnModelNode = actions.Node(package='gazebo_ros', executable='spawn_entity.py',
                           arguments=['-topic','robot_description','-entity', "kinova-gen3", '-x', "0", '-y', '0', '-z', '0'],output='screen')
 
+    myrobot_controller_config = os.path.join(
+        get_package_share_directory("robot_description"),
+        "config",
+        "robot_controller.yaml",
+    )
 
+    
+
+    load_joint_state_broadcaster = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
+             'joint_state_broadcaster'],
+        output='screen'
+    )
+
+    load_joint_trajectory_controller = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
+             'joint_trajectory_controller'],
+        output='screen'
+    )
+
+    
     return LaunchDescription([
-        gazeboLaunch, jointStateNode, nodeRobotStatePublisher, spawnModelNode
+         RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=spawnModelNode,
+                on_exit=[load_joint_state_broadcaster],
+            )
+        ),
+        RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=load_joint_state_broadcaster,
+                on_exit=[load_joint_trajectory_controller],
+            )
+        ),
+        gazeboLaunch, jointStateNode, nodeRobotStatePublisher, spawnModelNode, 
     ])

@@ -28,13 +28,28 @@ colcon build --symlink-install
 cd install && source setup.zsh && cd ..
 ```
 
-## Worspace Structure 
+## 2. Worspace Structure 
 The workspace contains two packages: 
 * __robot_description__ : Contains de descriptions, `rviz2` config and related files to vizualize and use the robot. 
 * __robot_gazebo__ : All configuration needed to run a simple simulation in `Classic Gazebo` with the `robot_description` package. 
 
 
-# The Robot 
+# 3. The Robot 
 All the workspace is based in the Kinova Gen 3 6 DOF serial manipulator model. 
 
 <img src="doc/kinova-gen3-stock-img.webp" alt="Image 1" style="display:inline-block; margin-right: 10px;" width="400"/> <img src="doc/specifications.png" alt="Image 2" style="display:inline-block;" width="400"/>
+
+
+This robot is used for educational purposes and world competitions (RobocupFederation Matlab). https://www.kinovarobotics.com/product/gen3-robots. In the page you can find the CAD models and STLs used in the URDF definition. 
+
+## URDF (Universal Robot Definition Format)
+`robot_description/urdf` includes the definition for the robot and `robot_description/xacro` the macro imported in the urdf. The model 6 joints are named as "joint_\<i\>". 
+
+### Hardware Interface 
+
+### Controller Implementation 
+
+## Author: 
+Andrés Morales Martínez (amoralesma@unal.edu.co). Mechatronics and Physics Student at Universidad Nacional de Colombia - Bogotá D.C. Interested in Robotics, TAMP and Non Linear Control Theory. 
+
+

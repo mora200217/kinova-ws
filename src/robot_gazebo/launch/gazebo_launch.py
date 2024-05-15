@@ -66,6 +66,11 @@ def generate_launch_description():
         output='screen'
     )
 
+    positionNode = actions.Node(
+        package="robot_gazebo",
+        executable="traj_publisher"
+    )
+
     
     return LaunchDescription([
          RegisterEventHandler(
@@ -80,5 +85,5 @@ def generate_launch_description():
                 on_exit=[load_joint_trajectory_controller],
             )
         ),
-        gazeboLaunch, jointStateNode, nodeRobotStatePublisher, spawnModelNode, 
+        gazeboLaunch, jointStateNode, nodeRobotStatePublisher, spawnModelNode, positionNode
     ])

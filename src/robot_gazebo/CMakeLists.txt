@@ -8,9 +8,16 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(robot_description REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(trajectory_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+
+add_executable(traj_publisher src/move.cpp)
+ament_target_dependencies(traj_publisher
+    rclcpp
+    trajectory_msgs)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -30,6 +37,11 @@ install(DIRECTORY
   models
   DESTINATION share/${PROJECT_NAME}/
 )
+
+
+install(TARGETS
+  traj_publisher
+  DESTINATION lib/${PROJECT_NAME})
 
 
 

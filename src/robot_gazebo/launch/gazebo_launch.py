@@ -52,7 +52,12 @@ def generate_launch_description():
         "robot_controller.yaml",
     )
 
-    
+    cameraNode = actions.Node(
+        package="rqt_image_view", 
+        executable="rqt_image_view",
+        arguments=["/intel_camera/image_raw"]
+    )
+
 
     load_joint_state_broadcaster = ExecuteProcess(
         cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
@@ -85,5 +90,5 @@ def generate_launch_description():
                 on_exit=[load_joint_trajectory_controller],
             )
         ),
-        gazeboLaunch, jointStateNode, nodeRobotStatePublisher, spawnModelNode, positionNode
+        gazeboLaunch, jointStateNode, nodeRobotStatePublisher, spawnModelNode, positionNode, cameraNode
     ])

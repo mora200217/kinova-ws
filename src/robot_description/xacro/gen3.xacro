@@ -4,7 +4,7 @@
 
     <!-- Arguments -->
     <xacro:arg name="arm" default="gen3" />
-    <xacro:arg name="dof" default="7" />
+    <xacro:arg name="dof" default="6" />
     <xacro:arg name="vision" default="true" />
 
     <xacro:arg name="gripper" default="" />

@@ -1,5 +1,7 @@
 joint_state_publisher:
   ros__parameters:
+    robot_description: 
+      - robot_description
     zeros: 
       joint_1: 1.57
       joint_2: -0.35

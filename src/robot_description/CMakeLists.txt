@@ -29,6 +29,7 @@ install(DIRECTORY
   xacro
   urdf
   meshes
+  grippers  
   rviz
   config
   DESTINATION share/${PROJECT_NAME}/

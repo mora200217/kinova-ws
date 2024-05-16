@@ -7,13 +7,23 @@
 
   <xacro:macro name="load_arm" params="parent:='' dof vision prefix *origin">
 
-  <link name="world" /> 
+  <!-- <link name="world" /> 
 
   <joint name="world_to_base_link=" type="fixed"> 
      <parent link="world"/> 
      <child link="base_link"/> 
-  </joint>
 
+  </joint> -->
+
+
+
+
+  <!-- Gripper  -->
+  
+  <!-- <joint name ="ee_joint" type="fixed">
+       <parent link="end_effector_link"/> 
+       <child link="robotiq_2f_85"/> 
+  </joint> -->
 
     <link name="${prefix}base_link">
       <inertial>

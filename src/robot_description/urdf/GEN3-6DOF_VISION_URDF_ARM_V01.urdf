@@ -8,7 +8,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/base_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/base_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -17,7 +17,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/base_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -30,7 +30,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/shoulder_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/shoulder_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -39,7 +39,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/shoulder_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/shoulder_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -59,7 +59,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/bicep_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/bicep_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -68,7 +68,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/bicep_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/bicep_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -88,7 +88,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/forearm_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/forearm_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -97,7 +97,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/forearm_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/forearm_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -117,7 +117,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -126,7 +126,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -146,7 +146,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -155,7 +155,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -175,7 +175,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/bracelet_with_vision_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/bracelet_with_vision_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -184,7 +184,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/arms/gen3/6dof/meshes/bracelet_with_vision_link.STL" />
+        <mesh filename="file://$(find robot_description)/arms/gen3/6dof/meshes/bracelet_with_vision_link.STL" />
       </geometry>
     </collision>
   </link>

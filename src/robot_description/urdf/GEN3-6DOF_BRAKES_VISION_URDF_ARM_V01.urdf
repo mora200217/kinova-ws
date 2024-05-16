@@ -24,7 +24,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/base_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -38,7 +38,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/base_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -64,7 +64,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/shoulder_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/shoulder_link.STL" />
       </geometry>
       <material
         name="">
@@ -78,7 +78,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/shoulder_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/shoulder_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -120,7 +120,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/bicep_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/bicep_link.STL" />
       </geometry>
       <material
         name="">
@@ -134,7 +134,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/bicep_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/bicep_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -178,7 +178,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/forearm_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/forearm_link.STL" />
       </geometry>
       <material
         name="">
@@ -192,7 +192,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/forearm_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/forearm_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -236,7 +236,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL" />
       </geometry>
       <material
         name="">
@@ -250,7 +250,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -292,7 +292,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL" />
       </geometry>
       <material
         name="">
@@ -306,7 +306,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -350,7 +350,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/bracelet_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/bracelet_link.STL" />
       </geometry>
       <material
         name="">
@@ -364,7 +364,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://kortex_description/arms/gen3/6dof/meshes/bracelet_link.STL" />
+          filename="file://$(find robot_description)/arms/gen3/6dof/meshes/bracelet_link.STL" />
       </geometry>
     </collision>
   </link>

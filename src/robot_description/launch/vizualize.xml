@@ -25,6 +25,6 @@
     </node>
 
     <!-- Start RViz -->
-    <node name="rviz" pkg="rviz2" exec="rviz2" output="log" args="-f base_link -d $(find-pkg-share robot_description)/rviz/rviz-config.rviz" if="$(var start_rviz)">         
+    <node name="rviz" pkg="rviz2" exec="rviz2" output="log" args="-f world -d $(find-pkg-share robot_description)/rviz/rviz-config.rviz" if="$(var start_rviz)">         
     </node>
 </launch>

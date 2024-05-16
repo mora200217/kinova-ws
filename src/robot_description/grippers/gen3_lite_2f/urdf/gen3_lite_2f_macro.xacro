@@ -29,7 +29,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/gen3_lite_2f/meshes/gripper_base_link.STL" />
+          <mesh filename="file://$(find robot_description)/grippers/gen3_lite_2f/meshes/gripper_base_link.STL" />
         </geometry>
         <material name="">
           <color rgba="0.803 0.824 0.820 1" />
@@ -38,7 +38,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/gen3_lite_2f/meshes/gripper_base_link.STL" />
+          <mesh filename="file://$(find robot_description)/grippers/gen3_lite_2f/meshes/gripper_base_link.STL" />
         </geometry>
       </collision>
     </link>
@@ -55,7 +55,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/grippers/gen3_lite_2f/meshes/right_finger_prox_link.STL" />
+        <mesh filename="file://$(find robot_description)/grippers/gen3_lite_2f/meshes/right_finger_prox_link.STL" />
       </geometry>
       <material name="">
           <color rgba="0.803 0.824 0.820 1" />
@@ -64,7 +64,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kortex_description/grippers/gen3_lite_2f/meshes/right_finger_prox_link.STL" />
+        <mesh filename="file://$(find robot_description)/grippers/gen3_lite_2f/meshes/right_finger_prox_link.STL" />
       </geometry>
     </collision>
     </link>
@@ -87,7 +87,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/gen3_lite_2f/meshes/right_finger_dist_link.STL" />
+          <mesh filename="file://$(find robot_description)/grippers/gen3_lite_2f/meshes/right_finger_dist_link.STL" />
         </geometry>
         <material name="">
           <color rgba="0 0.055 0.525 1" />
@@ -96,7 +96,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/gen3_lite_2f/meshes/right_finger_dist_link.STL" />
+          <mesh filename="file://$(find robot_description)/grippers/gen3_lite_2f/meshes/right_finger_dist_link.STL" />
         </geometry>
       </collision>
     </link>
@@ -121,7 +121,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/gen3_lite_2f/meshes/left_finger_prox_link.STL" />
+          <mesh filename="file://$(find robot_description)/grippers/gen3_lite_2f/meshes/left_finger_prox_link.STL" />
         </geometry>
         <material name="">
           <color rgba="0.803 0.824 0.820 1" />
@@ -130,7 +130,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/gen3_lite_2f/meshes/left_finger_prox_link.STL" />
+          <mesh filename="file://$(find robot_description)/grippers/gen3_lite_2f/meshes/left_finger_prox_link.STL" />
         </geometry>
       </collision>
     </link>
@@ -154,7 +154,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/gen3_lite_2f/meshes/left_finger_dist_link.STL" />
+          <mesh filename="file://$(find robot_description)/grippers/gen3_lite_2f/meshes/left_finger_dist_link.STL" />
         </geometry>
         <material name="">
           <color rgba="0 0.055 0.525 1" />
@@ -163,7 +163,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/gen3_lite_2f/meshes/left_finger_dist_link.STL" />
+          <mesh filename="file://$(find robot_description)/grippers/gen3_lite_2f/meshes/left_finger_dist_link.STL" />
         </geometry>
       </collision>
     </link>

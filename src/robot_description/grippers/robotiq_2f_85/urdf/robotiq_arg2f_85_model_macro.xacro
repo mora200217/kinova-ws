@@ -13,7 +13,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_outer_knuckle.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="file://$(find robot_description)/grippers/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_outer_knuckle.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="">
           <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
@@ -22,7 +22,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_outer_knuckle.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="file://$(find robot_description)/grippers/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_outer_knuckle.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
     </link>
@@ -38,7 +38,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_outer_finger.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="file://$(find robot_description)/grippers/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_outer_finger.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="">
           <color rgba="0.1 0.1 0.1 1" />
@@ -47,7 +47,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_outer_finger.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="file://$(find robot_description)/grippers/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_outer_finger.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
     </link>
@@ -63,7 +63,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_inner_knuckle.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="file://$(find robot_description)/grippers/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_inner_knuckle.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="">
           <color rgba="0.1 0.1 0.1 1" />
@@ -72,7 +72,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_inner_knuckle.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="file://$(find robot_description)/grippers/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_inner_knuckle.dae" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
     </link>
@@ -88,7 +88,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_inner_finger.dae" scale="0.001 0.001 0.001"/>
+          <mesh filename="file://$(find robot_description)/grippers/robotiq_2f_85/meshes/visual/robotiq_arg2f_85_inner_finger.dae" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="">
           <color rgba="0.1 0.1 0.1 1" />
@@ -97,7 +97,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://kortex_description/grippers/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_inner_finger.dae" scale="0.001 0.001 0.001" />
+          <mesh filename="file://$(find robot_description)/grippers/robotiq_2f_85/meshes/collision/robotiq_arg2f_85_inner_finger.dae" scale="0.001 0.001 0.001" />
         </geometry>
       </collision>
     </link>
@@ -168,7 +168,7 @@
     </joint>
   </xacro:macro>
 
-  <xacro:include filename="$(find kortex_description)/grippers/robotiq_2f_85/urdf/robotiq_arg2f.xacro" />
+  <xacro:include filename="$(find robot_description)/grippers/robotiq_2f_85/urdf/robotiq_arg2f.xacro" />
 
   <xacro:macro name="finger_joint" params="prefix">
     <joint name="${prefix}finger_joint" type="revolute">

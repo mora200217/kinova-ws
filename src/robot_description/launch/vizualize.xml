@@ -20,7 +20,7 @@
     <node name="robot_state_publisher" pkg="robot_state_publisher" exec="robot_state_publisher" >
     <param 
                 name="robot_description" 
-                value="$(command 'xacro $(find-pkg-share robot_description)/xacro/gen3.xacro dof:=$(var dof) vision:=$(var vision) sim:=true')"
+                value="$(command 'xacro $(find-pkg-share robot_description)/xacro/gen3.xacro dof:=$(var dof) vision:=$(var vision) sim:=true gripper:=$(var gripper)')"
             />
     </node>
 

@@ -28,7 +28,7 @@ def generate_launch_description():
     robotFile = "gen3.xacro"
     robotPath = os.path.join(get_package_share_directory("robot_description"), "xacro", robotFile)
     
-    robotDescription = xacro.process_file(robotPath).toxml()
+    robotDescription = xacro.process_file(robotPath,  mappings={'sim' : 'true', 'gripper': 'robotiq_2f_85'}).toxml()
 
     nodeRobotStatePublisher = actions.Node(
         package='robot_state_publisher',
@@ -41,6 +41,8 @@ def generate_launch_description():
     jointStateNode = actions.Node(
         package="joint_state_publisher",
         executable="joint_state_publisher",
+        parameters=[{'source_list': ["/joint_state_broadcaster/joint_states"],
+        }] 
     )
 
     spawnModelNode = actions.Node(package='gazebo_ros', executable='spawn_entity.py',
@@ -50,6 +52,12 @@ def generate_launch_description():
         get_package_share_directory("robot_description"),
         "config",
         "robot_controller.yaml",
+    )
+
+    rviz_config = os.path.join(
+        get_package_share_directory("robot_gazebo"),
+        
+        "rviz/rviz-config.rviz",
     )
 
     cameraNode = actions.Node(
@@ -76,6 +84,15 @@ def generate_launch_description():
         executable="traj_publisher"
     )
 
+    rvizNode = actions.Node(
+        package="rviz2",
+        executable="rviz2", 
+        name= "rviz",
+        arguments=[
+             "-fworld" , "-d"+ rviz_config]
+        
+    )
+
     
     return LaunchDescription([
          RegisterEventHandler(
@@ -90,5 +107,5 @@ def generate_launch_description():
                 on_exit=[load_joint_trajectory_controller],
             )
         ),
-        gazeboLaunch, jointStateNode, nodeRobotStatePublisher, spawnModelNode, positionNode, cameraNode
+        gazeboLaunch, jointStateNode, nodeRobotStatePublisher, spawnModelNode, positionNode, rvizNode
     ])

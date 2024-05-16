@@ -5,8 +5,6 @@
   <!-- Propagate last link name information because it is the gripper's parent link -->
   <xacro:property name="last_arm_link" value="end_effector_link"/>
 
-  
-
   <xacro:macro name="load_arm" params="parent:='' dof vision prefix *origin">
 
   <link name="world" /> 
@@ -254,7 +252,7 @@
     
       <link name="${prefix}camera_link" />
       <joint name="${prefix}camera_module" type="fixed">
-        <origin xyz="0.2 0.05639 -0.00305" rpy="3.14159265358979 3.14159265358979 0" />
+        <origin xyz="0 0.05639 -0.00305" rpy="3.14159265358979 3.14159265358979 0" />
         <parent link="${prefix}end_effector_link" />
         <child  link="${prefix}camera_link" />
       </joint>
@@ -383,8 +381,8 @@
           <baseline>0.2</baseline>
           <alwaysOn>true</alwaysOn>
               <updateRate>10.0</updateRate>
-              <cameraName>your_camera</cameraName>
-              <frameName>your_camera_link</frameName>                   
+              <cameraName>inter_camera</cameraName>
+              <frameName>camera_link</frameName>                   
           <imageTopicName>rgb/image_raw</imageTopicName>
           <depthImageTopicName>depth/image_raw</depthImageTopicName>
           <pointCloudTopicName>depth/points</pointCloudTopicName>
